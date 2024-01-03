@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <style>
+      .first-button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .second-button {
+        background-color: #008cba;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Adults Plain Cotton T-Shirt</p>
+    <p>Price: $7.99</p>
+    <button class="first-button" onclick="alert('Added')">Add to cart</button>
+    <button
+      class="second-button"
+      onclick="
+      alert('Loading...');
+      alert('Purchased');"
+    >
+      Buy now
+    </button>
+  </body>
+</html>
